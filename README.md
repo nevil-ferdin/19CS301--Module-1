@@ -1,184 +1,193 @@
-# 19CS301--Module-1
-Exp.No:1(a)	PYTHON BASICS-PRINTING MULTILINE STRING
+@@ -0,0 +1,192 @@
+- **Name:** Nevil Joe Ferdin P  
+- **Registration Number:** 212222050041
+# 19CS301-Module-1
+# Experiment No: 1a Python Basics- convert tuple to list.
 
-### AIM
-To create a python program to print the string in multiline using triple quotes.
-### ALGORITHM
+## AIM  
+To create a python program to read a tuple and convert it into a list.
 
-Step 1:	 Begin the program.
+## ALGORITHM  
+**Step 1:** Start  
+**Step 2:** Take a tuple as input from the user  
+**Step 3:** Convert the tuple to a list  
+**Step 4:** Use `filter()` to keep only the even numbers  
+**Step 5:** Convert the filtered result to a list  
+**Step 6:** Print the filtered list  
+**Step 7:** End
 
-Step 2:	 Use triple quotes (''' or """) to define a string that spans multiple lines.
+## PROGRAM
 
-Step 3:	 Use the print() function to display the multi-line string.
+# Reg no-212222050041
+# Name-Nevil Joe Ferdin P
 
-Step 4:	 Terminate the program
-
-### PROGRAM
-```string_single_quotes = '''I am a string literal
-... has more than one
-... line
-....placed inside triple single quotes'''
-
-
-string_double_quotes = """I am a string literal
-... has more than one
-... line
-....placed inside triple double quotes"""
+```python
+tuple = eval(input("Enter a tuple: ")) 
+T = list(tuple)
+print(f"List={T}")
 
 
-print(string_single_quotes)
-print(string_double_quotes)
+## OUTPUT
+
+(https://github.com/user-attachments/assets/23afffaf-26cd-41d0-bf84-a00947eefbc0)
+
+
+## RESULT 
+Thus python program to read a tuple and convert it into a list was executed successfully.
+
+
+
+# Experiment No: 1B- Data Types – Printing Complex Number.
+
+## AIM  
+Write a python program to read two numbers and convert and print them into a complex number.
+## ALGORITHM  
+**Step 1:** Start  
+**Step 2:** Read an integer and store it in variable `a` (real part)  
+**Step 3:** Read another integer and store it in variable `b` (imaginary part)  
+**Step 4:** Create a complex number `c` using `a` and `b`  
+**Step 5:** Print the complex number `c`  
+**Step 6:** End
+
+## PROGRAM
+```python
+# Reg.No-212222050041
+# Name-Nevil Joe Ferdin P
+
+a=int(input())
+b=int(input())
+c=complex(a,b)
+print(c)
+
 ```
-### OUTPUT
-![image](https://github.com/user-attachments/assets/61c091af-7bf7-496e-98d7-5d1039b10e4e)
+## OUTPUT ![image](https://github.com/user-attachments/assets/c6353a96-82e2-468b-bb42-5c3a1f0d5e0f)
+
+
+## RESULT 
+Thus python program to read two numbers and convert and print them into a complex number is successfully completed.
+
+
+# Experiment No: 1c-Varibles and Expressions, Operators - using Assignment Operators
+
+## AIM
+To Write a python program using the assignment operator /=,%= on the given values.
+
+## ALGORITHM
+**Step 1:** Start  
+**Step 2:** Read an integer `a` (denominator)  
+**Step 3:** Read an integer `b` (numerator)  
+**Step 4:** Read an integer `c`  
+**Step 5:** Check if `a` is not zero  
+&nbsp;&nbsp;&nbsp;&nbsp;→ **If yes**, go to Step 6  
+&nbsp;&nbsp;&nbsp;&nbsp;→ **If no**, display an error message and **stop**  
+**Step 6:** Calculate `d = b / a`  
+**Step 7:** Print the value of `d`  
+**Step 8:** Print the value of `c`  
+**Step 9:** Stop
+
+## PROGRAM
+```python
+# Reg.No-212222050041
+# Name-Nevil Joe Ferdin
+
+a=int(input())
+b=int(input())
+c=int(input())
+d=b/a
+print(d)
+print(c)
+
+```
+
+## OUTPUT ![image](https://github.com/user-attachments/assets/7dc1b5d4-7935-44a9-9faa-ecbe2077b1dd)
+
+
+
+## RESULT
+Thus the python program using the assignment operator /=,%= on the given values executed successfully.
+
+
+## Experiment No: 1d – Conditional Statements- Checking leap year or not
+
+## AIM  
+To Write a Python program to compute whether a given year is leap year or not
+## ALGORITHM  
+
+
+**Step 1:** Start  
+**Step 2:** Input the year (let’s call it `year`)  
+**Step 3:**  
+&nbsp;&nbsp;&nbsp;&nbsp;If (`year % 4 == 0`) **AND** (`year % 100 != 0`)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ Then it is a **leap year**  
+&nbsp;&nbsp;&nbsp;&nbsp;Else if (`year % 400 == 0`)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ Then it is a **leap year**  
+&nbsp;&nbsp;&nbsp;&nbsp;Else  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ It is **not** a leap year  
+**Step 4:** Display the result  
+**Step 5:** Stop
 
 
  
-### RESULT
-Thus the python program for printing multiline strings has been implemented and executed successfully.
 
-Exp.No:1(b)	DATA TYPES-PYTHON PROGRAM TO PRINTING INTEGER LITERALS
 
-### AIM
-To write a python program to print the following integer literals 123,456,789
-### ALGORITHM
-Step 1:	Begin the program.
 
-Step 2:	Initialize the integer literals 123, 456, and 789.
 
-Step 3:	Use the print() function to display the numbers 123, 456, and 789.
+## PROGRAM
+```python
+# Reg.No- 212222050041
+# Name-Nevil Joe Ferdin P
 
-Step 4:	Terminate the program.
 
-### PROGRAM
-```num1 = 123
-num2 = 456
-num3 = 789
-print(num1)
-print(num2)
-print(num3)
+year=int(input())
+if((year%400==0)and(year%100==0)):
+    print("Given year {} is a leap year".format(year))
+elif (year%4==0) and (year%100!=0): 
+    print("Given year {} is a leap year".format(year))
+else :
+    print("Given year {} is not a leap year".format(year))
+    
 ```
-### OUTPUT
-![image](https://github.com/user-attachments/assets/c1420ca6-469e-4a77-91cc-4cf807111aca)
 
- 
+## OUTPUT
 
-### RESULT
-Thus the python program for printing the Integer Literals has been implemented and executed successfully.
+![image](https://github.com/user-attachments/assets/96bb52ed-b9f8-4e96-ba33-16fbb78f1db1)
 
+## RESULT
+Thus the program is executed Successfully.
 
+# Experiment No: 1e – SEB-Maximum of Three Numbers
 
+## AIM  
+To write a Python program to find the maximum between three integer numbers using a conditional expression (Ternary operator).
 
+## ALGORITHM  
 
+**Step 1:** Begin the program  
+**Step 2:** Read three numbers: `num1`, `num2`, and `num3`  
+**Step 3:** Compare the three numbers to find the maximum:  
+&nbsp;&nbsp;&nbsp;&nbsp;- If `num1` is greater than or equal to both `num2` and `num3`, then `num1` is the maximum  
+&nbsp;&nbsp;&nbsp;&nbsp;- Else if `num2` is greater than or equal to both `num1` and `num3`, then `num2` is the maximum  
+&nbsp;&nbsp;&nbsp;&nbsp;- Else, `num3` is the maximum  
+**Step 4:** Print the maximum value in the format:  
 
-Exp.No:1(c)	VARIABLES AND EXPRESSIONS, OPERATORS ADDING TWO COMPLEX NUMBERS
+## PROGRAM
+```python
+# Reg.No-21222205009
+# Name-Nevil Joe Ferdin P
+# Write your code here
 
-### AIM
-To write a python program for adding two complex numbers, get the user input using the eval() function.
-### ALGORITHM
-Step 1:	Begin the program.
+num1 = int(input())
+num2 = int(input())
+num3 = int(input())
 
-Step 2:	Use eval() to get two complex numbers as input from the user.
+min_num = num1 if (num1 <= num2 and num1 <= num3) else num2 if (num2 <= num1 and num2 <= num3) else num3
 
-Step 3:	Print the complex numbers entered by the user.
-
-Step 4:	Perform the addition of the two complex numbers using + operator.
-
-Step 5:	Print the sum of the two complex numbers.
-
-Step 6:	Terminate the program.
-
-### PROGRAM
+print(f"The maximum of {num1}, {num2}, {num3} is {min_num}")
 ```
-A = eval(input())
-B = eval(input())
 
-print(f"A is {A}")
-print(f"B is {B}")
-
-sum_complex = A + B
-
-print(f"Sum is {sum_complex}")
-```
-### OUTPUT
-
- ![image](https://github.com/user-attachments/assets/a1c12175-0dee-4aa1-885f-9e7dc870f2dd)
-
-### RESULT
-Thus the python program for  adding two complex numbers has been implemented and executed successfully.
+## OUTPUT
+![image](https://github.com/user-attachments/assets/fd7d1550-cb69-4a2c-ab78-03c3f739bde0)
 
 
-Exp.No:1(d)	CONDITIONAL STATEMENTS- CHECKING VOWEL OR NOT
-
-### AIM
-To Write a Python program to check whether the given character is a vowel or not using if..else statement
-### ALGORITHM
-Step 1:	 Begin the program.
-
-Step 2:	 Take a character input from the user
-
-Step 3:	 Convert the character to lowercase
-
-Step 4:	 Check if the lowercase character is one of the vowels: 'a', 'e', 'i', 'o', 'u'
-
-Step 5:	 If it is a vowel, display "The given character is a vowel"
-
-Step 6:	 Otherwise, display "The given character is NOT a vowel"
-
-Step 7:	 Terminate the program.
-
-### PROGRAM
-```char = input("Enter a character: ")
-char_lower = char.lower()
-if char_lower in ['a', 'e', 'i', 'o', 'u']:
-    print("The given character is a vowel")
-else:
-    print("The given character is NOT a vowel")
-```
-### OUTPUT 
-![image](https://github.com/user-attachments/assets/c8b79e3c-6d44-4da2-b72a-461b3e03cfee)
-
-
-### RESULT
-Thus the python program to check whether the given character is a vowel or not using if..else statement  has been implemented and executed successfully.
-
-
-
-
-
-Exp.No:1(e)	SEB- MINIMUM OF THREE NUMBERS
-
-### AIM
-To write a program to find a minimum between three integer numbers using conditional Expression(Ternary).
-### ALGORITHM
-
-Step 1:	 Begin the program.
-
-Step 2:	 Read the three numbers: num1, num2, and num3 from the user.
-
-Step 3:	 Compare num1, num2, and num3 to find the smallest number:
-
-Step 4:	If num1 is less than or equal to both num2 and num3, then num1 is the minimum.
-
-Step 5:	Else, if num2 is less than or equal to both num1 and num3, then num2 is the minimum.
-
-Step 6:	 Otherwise, num3 is the minimum.
-
-Step 7:	 Print the minimum value along with the input numbers in the format: "The minimum of num1, num2, num3 is min_num."
-
-Step 8:	 Terminate the program.
-### PROGRAM
-```
-num1=int(input())
-num2=int(input())
-num3=int(input())
-min_num=num1 if(num1<=num2 and num1<=num3) else num2 if(num2<=num1 and num2<=num3) else(num3)
-print(f"The minimum of {num1}, {num2}, {num3} is {min_num}")
-```
-### OUTPUT
-![image](https://github.com/user-attachments/assets/64e607d4-916a-4df8-b2f4-450f68295884)
-
- 
-### RESULT
-Thus the python program for finding a minimum of three numbers has been implemented and executed successfully.
-
+## RESULT
+Thus the program is executed Successfully.
