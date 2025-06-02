@@ -3,12 +3,12 @@
 - **Name:** Nevil Joe Ferdin P  
 - **Registration Number:** 212222050041
 
-# Experiment No: 1a Python Basics- convert tuple to list.
+## Experiment No: 1a Python Basics- convert tuple to list.
 
-## AIM  
+### AIM  
 To create a python program to read a tuple and convert it into a list.
 
-## ALGORITHM  
+### ALGORITHM  
 **Step 1:** Start  
 **Step 2:** Take a tuple as input from the user  
 **Step 3:** Convert the tuple to a list  
@@ -17,7 +17,7 @@ To create a python program to read a tuple and convert it into a list.
 **Step 6:** Print the filtered list  
 **Step 7:** End
 
-## PROGRAM
+### PROGRAM
 
 ```python
 # Reg no-212222050041
@@ -28,19 +28,19 @@ T = list(tuple)
 print(f"List={T}")
 ```
 
-## OUTPUT ![image](https://github.com/user-attachments/assets/23afffaf-26cd-41d0-bf84-a00947eefbc0)
+### OUTPUT ![image](https://github.com/user-attachments/assets/23afffaf-26cd-41d0-bf84-a00947eefbc0)
 
 
-## RESULT 
+### RESULT 
 Thus python program to read a tuple and convert it into a list was executed successfully.
 
 
 
-# Experiment No: 1B- Data Types – Printing Complex Number.
+## Experiment No: 1B- Data Types – Printing Complex Number.
 
-## AIM  
+### AIM  
 Write a python program to read two numbers and convert and print them into a complex number.
-## ALGORITHM  
+### ALGORITHM  
 **Step 1:** Start  
 **Step 2:** Read an integer and store it in variable `a` (real part)  
 **Step 3:** Read another integer and store it in variable `b` (imaginary part)  
@@ -48,7 +48,7 @@ Write a python program to read two numbers and convert and print them into a com
 **Step 5:** Print the complex number `c`  
 **Step 6:** End
 
-## PROGRAM
+### PROGRAM
 ```python
 # Reg.No-212222050041
 # Name-Nevil Joe Ferdin P
@@ -59,19 +59,19 @@ c=complex(a,b)
 print(c)
 
 ```
-## OUTPUT ![image](https://github.com/user-attachments/assets/c6353a96-82e2-468b-bb42-5c3a1f0d5e0f)
+### OUTPUT ![image](https://github.com/user-attachments/assets/c6353a96-82e2-468b-bb42-5c3a1f0d5e0f)
 
 
-## RESULT 
+### RESULT 
 Thus python program to read two numbers and convert and print them into a complex number is successfully completed.
 
 
-# Experiment No: 1c-Varibles and Expressions, Operators - using Assignment Operators
+## Experiment No: 1c-Varibles and Expressions, Operators - using Assignment Operators
 
-## AIM
+### AIM
 To Write a python program using the assignment operator /=,%= on the given values.
 
-## ALGORITHM
+### ALGORITHM
 **Step 1:** Start  
 **Step 2:** Read an integer `a` (denominator)  
 **Step 3:** Read an integer `b` (numerator)  
@@ -84,7 +84,7 @@ To Write a python program using the assignment operator /=,%= on the given value
 **Step 8:** Print the value of `c`  
 **Step 9:** Stop
 
-## PROGRAM
+### PROGRAM
 ```python
 # Reg.No-212222050041
 # Name-Nevil Joe Ferdin
@@ -98,21 +98,19 @@ print(c)
 
 ```
 
-## OUTPUT ![image](https://github.com/user-attachments/assets/7dc1b5d4-7935-44a9-9faa-ecbe2077b1dd)
+### OUTPUT ![image](https://github.com/user-attachments/assets/7dc1b5d4-7935-44a9-9faa-ecbe2077b1dd)
 
 
 
-## RESULT
+### RESULT
 Thus the python program using the assignment operator /=,%= on the given values executed successfully.
 
 
 ## Experiment No: 1d – Conditional Statements- Checking leap year or not
 
-## AIM  
+### AIM  
 To Write a Python program to compute whether a given year is leap year or not
-## ALGORITHM  
-
-
+### ALGORITHM  
 **Step 1:** Start  
 **Step 2:** Input the year (let’s call it `year`)  
 **Step 3:**  
@@ -124,14 +122,7 @@ To Write a Python program to compute whether a given year is leap year or not
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ It is **not** a leap year  
 **Step 4:** Display the result  
 **Step 5:** Stop
-
-
- 
-
-
-
-
-## PROGRAM
+### PROGRAM
 ```python
 # Reg.No- 212222050041
 # Name-Nevil Joe Ferdin P
@@ -147,19 +138,19 @@ else :
     
 ```
 
-## OUTPUT
+### OUTPUT
 
 ![image](https://github.com/user-attachments/assets/96bb52ed-b9f8-4e96-ba33-16fbb78f1db1)
 
-## RESULT
+### RESULT
 Thus the program is executed Successfully.
 
-# Experiment No: 1e – SEB-Maximum of Three Numbers
+## Experiment No: 1e – SEB-Maximum of Three Numbers
 
-## AIM  
+### AIM  
 To write a Python program to find the maximum between three integer numbers using a conditional expression (Ternary operator).
 
-## ALGORITHM  
+### ALGORITHM  
 
 **Step 1:** Begin the program  
 **Step 2:** Read three numbers: `num1`, `num2`, and `num3`  
@@ -169,7 +160,7 @@ To write a Python program to find the maximum between three integer numbers usin
 &nbsp;&nbsp;&nbsp;&nbsp;- Else, `num3` is the maximum  
 **Step 4:** Print the maximum value in the format:  
 
-## PROGRAM
+### PROGRAM
 ```python
 # Reg.No-21222205009
 # Name-Nevil Joe Ferdin P
@@ -184,9 +175,9 @@ min_num = num1 if (num1 <= num2 and num1 <= num3) else num2 if (num2 <= num1 and
 print(f"The maximum of {num1}, {num2}, {num3} is {min_num}")
 ```
 
-## OUTPUT
+### OUTPUT
 ![image](https://github.com/user-attachments/assets/fd7d1550-cb69-4a2c-ab78-03c3f739bde0)
 
 
-## RESULT
+### RESULT
 Thus the program is executed Successfully.
