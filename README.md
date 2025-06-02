@@ -1,6 +1,8 @@
+# 19CS301-Module-1
+
 - **Name:** Nevil Joe Ferdin P  
 - **Registration Number:** 212222050041
-# 19CS301-Module-1
+
 # Experiment No: 1a Python Basics- convert tuple to list.
 
 ## AIM  
@@ -26,9 +28,7 @@ T = list(tuple)
 print(f"List={T}")
 ```
 
-## OUTPUT
-
-(https://github.com/user-attachments/assets/23afffaf-26cd-41d0-bf84-a00947eefbc0)
+## OUTPUT ![image](https://github.com/user-attachments/assets/23afffaf-26cd-41d0-bf84-a00947eefbc0)
 
 
 ## RESULT 
