@@ -17,14 +17,14 @@ To create a python program to read a tuple and convert it into a list.
 
 ## PROGRAM
 
+```python
 # Reg no-212222050041
 # Name-Nevil Joe Ferdin P
 
-```python
 tuple = eval(input("Enter a tuple: ")) 
 T = list(tuple)
 print(f"List={T}")
-
+```
 
 ## OUTPUT
 
